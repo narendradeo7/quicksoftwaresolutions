@@ -10,7 +10,7 @@ const lds= require("lodash");
 
 
 // array of different page title 
-const Ptitle=[{title:"Data",subtitle:"Swift fibre"},{title:"Data",subtitle:"NBN"},{title:"Dialpad",subtitle:"Dialpad Talk"},{title:"Dialpad",subtitle:"Dialpad Sales Dialer"},{title:"Dialpad",subtitle:"Dialpad Contact Centre"},{title:"Voice",subtitle:"Business SIP Voice"},{title:"Voice",subtitle:"Business Phone System"},{title:"Voice",subtitle:"Inbound Voice"},{title:"Cloud & IoT",subtitle:"Cloud Services"},{title:"Cloud & IoT",subtitle:"IOT Services"},{title:"About Us",subtitle:"about yourcompany"},{title:"About Us",subtitle:"Partner Reseller With Companyname"},{title:"About Us",subtitle:"Customer Referral"},{title:"About Us",subtitle:"Contact Companyname"}];
+const Ptitle=[{title:"Data",subtitle:"Swift fibre"},{title:"Data",subtitle:"NBN"},{title:"Dialpad",subtitle:"Dialpad Talk"},{title:"Dialpad",subtitle:"Dialpad Sales Dialer"},{title:"Dialpad",subtitle:"Dialpad Contact Centre"},{title:"Voice",subtitle:"Business SIP Voice"},{title:"Voice",subtitle:"Business Phone System"},{title:"Voice",subtitle:"Inbound Voice"},{title:"Cloud & IoT",subtitle:"Cloud Services"},{title:"Cloud & IoT",subtitle:"IOT Services"},{title:"About Us",subtitle:"about Quick software solutions"},{title:"About Us",subtitle:"Partner Reseller With Quick software solutions"},{title:"About Us",subtitle:"Customer Referral"},{title:"About Us",subtitle:"Contact Quick software solutions"}];
 
 const app= express();
 
