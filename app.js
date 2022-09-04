@@ -47,6 +47,7 @@ app.post("/",function(req,res){
 app.get("/:title",function(req,res){
   // converting dynamic part of the url to lowecase of lodash
   urldypart=lds.lowerCase(req.params.title);
+  var pagefound ="false";
 
   Ptitle.forEach(function(pageinfo){
     // console.log(lds.lowerCase(pageinfo.subtitle));
@@ -55,11 +56,15 @@ app.get("/:title",function(req,res){
       // res.render((req.params.title));
       
       res.render((req.params.title),{Titlepage:pageinfo.title,Subtitlepage:pageinfo.subtitle});
+      pagefound="true";
     }
 else{
-  res.send("<img src='https://media.giphy.com/media/iliZk0fuv82cKdTwbO/giphy.gif' style='position:absolute;left: 38%;top: 29%;transform: translate(-50px, -100px);'>");
+ 
 }
   });
+  if(pagefound="false"){
+    res.send("<img src='https://media.giphy.com/media/iliZk0fuv82cKdTwbO/giphy.gif' style='position:absolute;left: 38%;top: 29%;transform: translate(-50px, -100px);'>");
+  }
 
 });
 
