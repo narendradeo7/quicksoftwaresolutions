@@ -90,3 +90,12 @@ input[type=number] {
     z-index: 5 !important;
     
 }
+/* for nav bar  */
+.submenuli{
+display:none;
+margin-top: 5px;
+}
+.submenu-active{
+    display: block !important;;
+    margin-top: 0px !important;
+}

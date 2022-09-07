@@ -34,4 +34,24 @@ for (let i = 0; i < footer_child.length; i++) {
 //   });
 
 
+// getting navbar on mobile 
+let toggler=document.querySelector(".toggle_menu");
+      
+toggler.addEventListener("click",function(){
+  toggler.classList.toggle("mobile-active");
+  document.querySelector(".page_header").classList.toggle("mobile-active");
 
+});
+
+// getting all ul list 
+let menu=document.querySelector(".sf-menu").children;
+for(let i=1;i<menu.length-1;i++){
+  menu[i].addEventListener("click",function(){
+    let submenu= menu[i].children[1];
+    submenu.classList.toggle("submenuli");
+    submenu.classList.toggle("submenu-active");
+  
+  });
+}
+
+// navabar on mobile ends 
