@@ -1,0 +1,209 @@
+
+
+.xsmall{font-size:0.675em;}
+
+.medium{font-size:1em;}
+.normal{font-size:1.2em;font-weight:400;}
+.highlight{font-weight:800 !important;}
+.largetext{font-size:1.4em;font-weight:600 !important;line-height:1.6em;}
+.extralargeheading100{font-size:2.8em;font-weight:100 !important;line-height:1.6em;}
+.extralargeheading400{font-size:2.8em;font-weight:400 !important;line-height:1.2em;}
+.exlargetext{font-size:1.500em;font-weight:600;}
+.focuson{color:#3C281D;}
+.focuson-green{color:#497400;}
+.upper{text-transform:uppercase;}
+.fontred{color:#497400;font-weight:400;}
+.fontwhite{color:#ffffff !important;}
+
+.textunderline{  border-bottom: 3px solid #1D3C37 !important;} 
+.terms-text {font-size:0.7em;}
+.lead-text {font-size:1.5125rem;}
+
+
+.testi-name p {margin:0;} 
+.testimonial_btn{background-color:#373d4b !important;color:#fff !important;}
+
+.slidertext3{color:#fff;font-size:3.5rem;font-weight:900;letter-spacing:0.031em;text-align:center;line-height:1.3em;}
+.slidertext4{color:#fff;font-size:1.8rem;font-weight:500;letter-spacing:0.031em;text-align:center;line-height:1.3em}
+
+.tc{text-align:center;}
+.tr{text-align:right;}
+.tl{text-align:left;}
+
+a {color:#497400;text-decoration:none;}
+a:hover {color:#C80078;}
+
+.sub-links li{float:right;margin-left:1.250em;font-size:0.750em;}
+
+
+
+
+a.content:link {color:#97332c !important;text-decoration:none;}
+a.content:hover {text-decoration:underline;}
+a.content:visited {color:#1D3C37;}
+a.content:focus {color:transparent;}
+
+
+a.sm {color:#ffffff !important;text-decoration:none;}
+a.sm:hover{color:#497400!important; text-decoration:none;}
+
+
+a.small:link{color:#1D3C37; font-weight:300;}
+a.small:hover{text-decoration:underline;}
+a.small:visited{color:#1D3C37;}
+
+a.light {text-decoration:none;color:white;}
+a.light:link{text-decoration:none;color:white;}
+a.light:hover{text-decoration:underline;}
+a.light:visited{text-decoration:none;color:white;}
+
+.text-core-mobile-span-black{display:inline-block;vertical-align:middle;color:#000;font-size:1.2em;font-weight:400;letter-spacing:0.031em;padding:1em;}
+
+
+.add-box h3{text-align:center;font-size:0.875em;text-transform:uppercase;}
+
+footer ul{padding:0;list-style:none;}
+
+ul.pagelist{color:#fff;}
+ul.pagelist-b{color:rgb(44, 53, 57)}
+li.list-group-item {list-style:circle !important;color:#000; }
+
+footer ul.small{line-height:1.2 !important;}
+
+
+/*
+
+.guidelines-content-bg ul li{color:#fff;line-height:2em;}
+.pagelist-b ul{ }
+.pagelist-b li {list-style:circle !important;padding:0;text-align:left; }
+
+.pagelist ul{ }
+.pagelist li {list-style:circle !important;color:#fff;padding:0;text-align:left; }
+.pagelist-b li {list-style:circle !important;padding:0;text-align:left; }
+.pagelist-a li {list-style-type: "â†’";padding:0;text-align:left; }
+
+.pagelist-n li {  list-style-type: decimal;}
+
+.pagelist-w li{padding:0;margin-left:1.5em;text-align:left;}
+*/
+
+.help-block {color: #ec1414; background-color:#fff; padding:.5em ;}
+.hide {
+  display: none;
+}
+
+
+/*images related*/
+.img-responsive{display:block;max-width:100%;height:auto;}
+.main-p-img img{width:40%;padding:45px 15px 0 15px;}
+.main-p-img{}
+
+/* Accordion Faq
+================================================== 
+.acc__card { position: relative;border-bottom: 1px dashed #ccc;}
+
+*/
+.acc {margin: 0 auto; max-width: 800px;}
+
+.acc__title { background: #fff; color: white; cursor: pointer; display: block;padding: 1.5em 1.5em; position: relative; text-align: left;border-bottom: 1px solid #ffffff;}
+.acc__title::after { width: 8px; height: 8px; border-right: 1px solid #4a6e78; border-bottom: 1px solid #ffffff; position: absolute; right: 10px; top: 40px; transform: rotate(-45deg); transition: all 0.2s ease-in-out;}
+.acc__title.active::after { transform: rotate(45deg); transition: all 0.2s ease-in-out;}
+.acc__panel { background: #fff; color: #212121; display: none;margin: 0;padding: 2em;text-align: left;}
+.acc__title .badge {display: inline-block;width: 30px;height: 30px;line-height: 25px;float: left;-webkit-border-radius: 100px;-moz-border-radius: 100px;border-radius: 100px;text-align: center;color: #fff;margin-right: 20px;}
+
+/* App Section
+================================================== 
+*/
+
+.app-section{
+	position:relative;
+	overflow:hidden;
+	padding:110px 0px 0px;
+	background-color:#03a2b4;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.app-section .title-column{
+	position:relative;
+	margin-bottom:40px;
+}
+
+.app-section .sec-title{
+	margin-bottom:35px;
+}
+
+.app-section .btn-box a{
+	position:relative;
+	margin-right:15px;
+	display:inline-block;
+}
+
+.app-section .images-column{
+	position:relative;
+}
+
+.app-section .images-column .inner-column{
+	position:relative;
+	text-align:right;
+}
+
+.app-section .images-column .image{
+	position:relative;
+}
+
+.app-section .images-column .image-one{
+	position:absolute;
+	left:190px;
+	bottom:0px;
+}
+
+.app-section {
+    background-color:#fafafa;
+}
+
+.bg-yellow {
+    background-color:#fcc436 !important;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { .largetext{font-size:1.1em;font-weight:500;line-height:1.475em}
+.exlargetext{font-size:1.2em;font-weight:600;line-height:1.475em}   
+h1, h2, h3, h4, h5, h6 {font-size: 100%;} }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { .container-xxl {max-width: 992px !important;} 
+
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1699.98px) { .container-xxl {max-width: 1200px !important;} 
+
+ }
+
+@media (min-width: 1700px) { .container-xxl {max-width: 1700px !important;} 
+
+ }
+
+
+/* /custom style 
+
+*/
+
+#intro{
+  left: 9%;
+  text-align: center;
+}
+
+
+
+
+

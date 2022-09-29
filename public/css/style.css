@@ -1,0 +1,101 @@
+
+
+.enqbtn {
+background-color: #883377 !important;
+    border-color: #883377 !important;
+    font-size: 16px !important;
+    height: 50px!important;
+    padding: 4px!important;
+    width: 114px!important;
+    margin-top: 15px important;
+    border-radius: 15px !important;
+}
+.alertmsg{
+    position: absolute;
+    width: 30%;
+    height: 11.5%;
+    background: hsl(291, 47%, 13%);
+    border-radius: 40%;
+    /* display: none; */
+    display: none;
+    left: 36%;
+    top: 28%;
+    z-index: 5;
+}
+.exitalert{
+    position: absolute;
+    left: 80%;
+    top: 12%;
+    font-size: 38px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 37px;
+    cursor: pointer;
+    
+}
+.alertbg{
+    text-align: center;
+    position: relative;
+    top: 41%;
+    left: 5%;
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+    background: url(https://media.giphy.com/media/KZG1cGqsUZw6Hefavb/giphy.gif);
+    width: 425px;
+    height: 136px;
+    transition-delay: 4s;
+}
+@keyframes fadeInUpd {
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fadeInUpdelay {
+	-webkit-animation-name: fadeInUpd;
+	-moz-animation-name: fadeInUpd;
+	-o-animation-name: fadeInUpd;
+	animation-name: fadeInUpd;
+    animation-delay: 3s;
+
+}
+
+/* hiding arrow in input type number  */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.activeslide{
+    width: 100%;
+    float: left;
+    margin-right: -100%;
+    position: relative;
+    opacity: 1 !important;
+    display: block !important;
+    z-index: 5 !important;
+    
+}
+/* for nav bar  */
+.submenuli{
+display:none;
+margin-top: 5px;
+}
+.submenu-active{
+    display: block !important;;
+    margin-top: 0px !important;
+}
