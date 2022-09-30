@@ -5,7 +5,7 @@
     document.querySelector("body").style.overflow="hidden";
     // we are preventing reload of the page
     e.preventDefault();
-    document.querySelector(".enqbtn").innerHTML="Subnitting🔃";
+    document.querySelector(".enqbtn").innerHTML="Submitting🔃";
     let data = new FormData(contact_form);
     fetch("https://script.google.com/macros/s/AKfycbz2kLNPdWUJDimaQZ0ojxvjxhsNK9v_-Un-N32w_uz4yrn7_ZVhUpu0gWDciRwfk2bFAA/exec",{method:"POST",
   body:data})
