@@ -17556,12 +17556,17 @@ img.absolute_image {
 .sticky{
 	position: fixed;
 
+
 }
 .navbarshrink{
 	animation: shrinnav 0.6s linear forwards ;
 height: 49px;
 /* transition: height 5.5s ease-in; */
 
+}
+.ashrink{
+	padding-bottom: 23px!important;
+	padding-top: 23px !important;
 }
 @keyframes shrinnav {
 	0%{

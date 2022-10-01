@@ -4,6 +4,14 @@
   var headerr=document.querySelector(".page_header");
   headerr.classList.toggle("sticky",window.scrollY >62.4);
 document.getElementsByClassName("navbaritm")[1].classList.toggle("navbarshrink",window.scrollY >62.4);
+// getting all the amchor element of the 
+
+  let anchall=document.querySelectorAll('ul.nav.sf-menu>li>a');
+  anchall.forEach(function(elem){
+elem.classList.toggle("ashrink",window.scrollY >62.4);
+
+  });
+
 // to animate an element whenever its fully invisible
 
 let footer_child = document.querySelector(".footer_elements").children;
@@ -43,15 +51,14 @@ toggler.addEventListener("click",function(){
 
 });
 
-// getting all ul list 
-let menu=document.querySelector(".sf-menu").children;
-for(let i=1;i<menu.length-1;i++){
-  menu[i].addEventListener("click",function(){
-    let submenu= menu[i].children[1];
-    submenu.classList.toggle("submenuli");
-    submenu.classList.toggle("submenu-active");
-  
-  });
-}
+// getting all ul list and making it active on  click 
 
-// navabar on mobile ends 
+document.querySelectorAll("ul.nav.sf-menu>li>a").forEach(function(elem){
+  elem.addEventListener("click",function(){
+    elem.parentElement.children[1].classList.toggle("submenu-active");
+  // making drop down of submenu of products run 
+    document.querySelectorAll(".submenu-active>li").forEach(function(elem){elem.addEventListener("click",function(){elem.children[1].classList.toggle('submenu-active')});});
+
+  
+  })});
+
