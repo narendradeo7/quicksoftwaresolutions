@@ -113,9 +113,65 @@ margin-top: 5px;
 
 /* styling of logo  */
 
-logoimg{
-    top: -102px !important;
-    max-height: 181px !important;
-    max-width: 109% !important;
+/* styling of the preloader  */
 
-}
+.preloadericon{
+    display:flex ;
+    /* flex-direction:column !important; */
+    /* background-color:white !important; */
+    z-index: 9999;
+    position: fixed;
+    left: 38%;
+    top: 43%;
+  }
+  .dot{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:rgb(255, 0, 238);
+    left:10%;
+    top:50%;
+    position:relative;
+    animation:scaling 2.5s ease-in-out infinite;
+
+    /* separting dots apart  */
+    margin-right: 25px;
+  }
+  
+  @keyframes scaling{
+    0%,100%{
+      transform:scale(0.2);
+        background-color: #30FFB7;
+    }
+    70%{
+      transform:scale(1);
+      background-color: #07DEFF;
+    }
+    80%{
+      transform:scale(1);
+      background-color: #0761FF;
+    }
+    
+  }
+  
+  /* adding animation delay to the div by getting all one by one by nth child method  */
+  
+  .dot0{
+    animation-delay:0s;
+  }
+  .dot1{
+    animation-delay:0.2s;
+  }
+  .dot2{
+    animation-delay:0.4s;
+  }
+  .dot3{
+    animation-delay:0.6s;
+  }
+  .dot4{
+    animation-delay:0.8s;
+  }
+  .dot5{
+    animation-delay:1s;
+  }
+  
