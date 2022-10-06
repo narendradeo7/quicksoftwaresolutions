@@ -47,6 +47,7 @@ app.post("/",function(req,res){
 app.get("/:title",function(req,res){
   // converting dynamic part of the url to lowecase of lodash
   urldypart=lds.lowerCase(req.params.title);
+  console.log(urldypart +"this is we getting from url target");
   var pagefound ="false";
 
   Ptitle.forEach(function(pageinfo){
