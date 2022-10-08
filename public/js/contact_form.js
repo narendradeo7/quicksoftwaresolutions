@@ -2,7 +2,7 @@
 
   let contact_form= document.querySelector(".contact-form");
   contact_form.addEventListener("submit",(e)=>{
-    document.querySelector("body").style.overflow="hidden";
+    // document.querySelector("body").style.overflow="hidden";
     // we are preventing reload of the page
     e.preventDefault();
     document.querySelector(".enqbtn").innerHTML="Submitting🔃";
@@ -20,6 +20,6 @@
   
   // reloading page when exitalert is clicked
   document.querySelector(".exitalert").addEventListener("click",function(){
-    document.querySelector("body").style.overflow="auto";
+    // document.querySelector("body").style.overflow="auto";
     location.reload();
   })

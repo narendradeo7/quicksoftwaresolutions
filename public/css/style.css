@@ -11,17 +11,21 @@ background-color: #883377 !important;
     border-radius: 15px !important;
 }
 .alertmsg{
-    position: absolute;
+    
+    position: fixed;
     width: 30%;
-    height: 11.5%;
+    height: 41.5%;
     background: hsl(291, 47%, 13%);
-    border-radius: 40%;
+    border-radius: 24%;
     /* display: none; */
     display: none;
     left: 36%;
     top: 28%;
-    z-index: 5;
+    z-index: 70;
+
 }
+
+
 .exitalert{
     position: absolute;
     left: 80%;
@@ -175,3 +179,97 @@ margin-top: 5px;
     animation-delay:1s;
   }
   
+
+  /* styling working hours  */
+
+  .whrs{
+font-size: 18px !important;
+cursor: pointer;
+
+
+  }
+
+  .whrs:hover{
+color:#28a745;
+font-size: 20px !important;
+  }
+
+  /* pop class to toggle workhours whenever workhours text is clicked  */
+
+.pop{
+  display: block !important;
+}
+
+/* pop up for working hours  */
+.whrspop{
+  position: fixed;
+  width: 50%;
+  height: 69.5%;
+  background: hsl(291, 47%, 13%);
+  border-radius: 15%;
+  /* display: none; */
+  display: none;
+  left: 22%;
+  top: 12%;
+  z-index: 9999;
+}
+
+/* exit whrs  */
+
+.exitwhrs{
+  position: absolute;
+  left: 86%;
+  top: 4%;
+  font-size: 38px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 37px;
+  cursor: pointer;
+  
+}
+
+.whrsbg{
+  text-align: center;
+  position: relative;
+  top: 10%;
+  /* left: 5%; */
+  font-weight: bolder;
+  font-size: larger;
+  color: white;
+  transition-delay: 4s;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.day-flex{
+
+  justify-content: flex-start;
+  min-width: 300px;
+
+
+}
+
+.hr-flex{
+
+  justify-content: flex-end;
+  min-width: 300px;
+ 
+
+
+}
+
+/* styling workhours pop up for very small devices  */
+
+@media (max-width: 575.98px) {
+ 
+  
+}
+
+
+
+  /* styling working hours  */

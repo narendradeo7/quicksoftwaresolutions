@@ -72,3 +72,14 @@ document.querySelector(".preloadericon").style.display="none";
 }
 
 // working of preloader ends 
+
+// workhours display 
+
+document.querySelector(".whrs").addEventListener("click",function(){document.querySelector(".whrspop").classList.toggle("pop");});
+
+
+// making workhous disappear when exit icon is pressed 
+
+document.querySelector(".exitwhrs").addEventListener("click",function(){
+  document.querySelector(".whrspop").classList.remove("pop");
+})
