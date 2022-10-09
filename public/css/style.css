@@ -259,18 +259,142 @@ font-size: 20px !important;
 
   justify-content: flex-end;
   min-width: 300px;
- 
+  margin: 1%;
 
 
 }
 
 /* styling workhours pop up for very small devices  */
 
-@media (max-width: 575.98px) {
- 
+/* styling workhours pop up for very small devices  */
+
+@media (max-width:500px) {
+	.day-flex{
+	 min-width: 90px;
+   margin-bottom: 5%;
+   
+	}
+	.hr-flex{
+	 min-width: 110px;
+   margin-bottom: 5%;
+	}
+	.flex-container{
+	 font-size: 10px;
+   margin-top: 23%;
+	}
+	 
+   }
+   .whrspop {
+   
+		width: 71%;
+		height: 69.5%;
+		background: hsl(291, 47%, 13%);
+		border-radius: 5%;
+		left: 14%;
+		top: 15%;
+		z-index: 9999;
+		font-size: 7px;
+	}
+  .exitwhrs {
+	  
+	  top: 1%;
+	
+	}
+	.whrsheading{
+	  margin-bottom: 11px;
+	  font-size: 16px;
+	}
+	.whrsbg {
+	  
+	  top: 7%;
+	
+	}
+
+   /* for medium to large size devices  */
+@media (min-width:501px) and (max-width:770px){
+	.day-flex{
+    min-width: 200px;
+    margin-bottom: 5%;
+    
+   }
+   .hr-flex{
+    min-width: 250px;
+    margin-bottom: 5%;
+   }
+	/* fixing work hours */
+	.whrspop {
+   
+		width: 71%;
+		height: 69.5%;
+		background: hsl(291, 47%, 13%);
+		border-radius: 5%;
+		left: 14%;
+		top: 15%;
+		z-index: 9999;
+		font-size: 7px;
+	}
+	
+	 
+	.exitwhrs {
+	  
+	  top: 1%;
+	
+	}
+	.whrsheading{
+	  margin-bottom: 11px;
+	  font-size: 16px;
+	}
+	.whrsbg {
+	  
+	  top: 7%;
+	
+	}
+	.day-flex{
+		margin-bottom: 2%;
+	}
+.hr-flex{
+  margin-bottom: 2%;
+}
+.flex-container{
+  font-size: 15px;
+  margin-top: 10%;
+}
+
+}
+@media (min-width:771px) and (max-width:1440px){
+  .day-flex{
+		margin-right: 4%;
+    
+	}
+.hr-flex{
+  margin-left: 5%;
+}
+.flex-container{
+  font-size: 25px;
+  margin-top: 5%;
+}
   
 }
 
+@media (min-width:1441px) {
+  .day-flex{
+		margin-right: 4%;
+    min-width: 28%;
+    margin-bottom: 2%;
+	}
+.hr-flex{
+  margin-left: 5%;
+  min-width: 30%;
+  margin-bottom: 2%;
+}
+.flex-container{
+  font-size: 33px;
+  margin-top: 3%;
+  
+}
+.whrsheading {
+font-size:30px;
+}
 
 
   /* styling working hours  */

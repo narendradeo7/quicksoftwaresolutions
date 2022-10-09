@@ -19058,38 +19058,10 @@ a.read-more.service-btn:hover {
 		margin-left: 0;
 	}
 
-	/* fixing work hours */
-	.whrspop {
-   
-		width: 71%;
-		height: 69.5%;
-		background: hsl(291, 47%, 13%);
-		border-radius: 5%;
-		left: 14%;
-		top: 15%;
-		z-index: 9999;
-		font-size: 7px;
-	}
-	
-	 
-	.exitwhrs {
-	  
-	  top: 1%;
-	
-	}
-	.whrsheading{
-	  margin-bottom: -11px;
-	  font-size: 16px;
-	}
-	.whrsbg {
-	  
-	  top: 7%;
-	
-	}
-	.day-flex{
-		margin: 2%;
-	}
+
 }
+
+
 
 .iptv-page .big {
 	margin: 7px 0 -6px;
