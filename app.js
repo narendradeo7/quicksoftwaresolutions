@@ -5,6 +5,13 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const lds= require("lodash");
 
+var enforce = require('express-sslify');
+ 
+
+ 
+
+
+
 // const hdr= require(__dirname +"/getheader.jsx");
 // // import hdr from (."/getheader.jsx");
 
@@ -20,6 +27,11 @@ app.set("view engine", "ejs");
 
 // use of bodyParser to get data from the route
 app.use(bodyParser.urlencoded({extended:true}));
+
+// enforcing https req using heroku 
+// Use enforce.HTTPS({ trustProtoHeader: true }) in case you are behind
+// a load balancer (e.g. Heroku). See further comments below
+app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
 // making a public folder and using it to get hold of static folder such as css and all
 

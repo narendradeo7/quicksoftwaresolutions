@@ -17,6 +17,8 @@
     document.querySelector(".enqbtn").innerHTML="Submit";
   });
   })
+
+  
   
   // reloading page when exitalert is clicked
   document.querySelector(".exitalert").addEventListener("click",function(){

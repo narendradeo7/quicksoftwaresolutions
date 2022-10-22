@@ -360,6 +360,18 @@ font-size: 20px !important;
   margin-top: 10%;
 }
 
+
+/* fixing preloader for small devices 
+ */
+
+ .dot{
+  
+    width: 25px;
+    height: 33px;
+  left:10%
+ }
+ .preloadericon {left:8%}
+
 }
 @media (min-width:771px) and (max-width:1440px){
   .day-flex{
