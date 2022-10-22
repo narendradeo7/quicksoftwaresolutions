@@ -67,7 +67,7 @@ document.querySelectorAll("ul.nav.sf-menu>li>a").forEach(function(elem){
 // working of perloader is that it calls loading function when body is loaded using onload attribute 
 
 function loading(){
-// document.querySelector(".preloadericon").style.display="none";
+document.querySelector(".preloadericon").style.display="none";
 
 }
 
