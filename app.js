@@ -31,7 +31,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 // enforcing https req using heroku 
 // Use enforce.HTTPS({ trustProtoHeader: true }) in case you are behind
 // a load balancer (e.g. Heroku). See further comments below
-app.use(enforce.HTTPS({ trustProtoHeader: true }));
+// app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
 // making a public folder and using it to get hold of static folder such as css and all
 
