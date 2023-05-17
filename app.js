@@ -5,7 +5,6 @@ const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const lds= require("lodash");
 
-<<<<<<< HEAD
 var enforce = require('express-sslify');
  
 
@@ -13,18 +12,12 @@ var enforce = require('express-sslify');
 
 
 
-=======
->>>>>>> 287e9c84ab93cee5357b9ffa47e3c30ea73ba811
 // const hdr= require(__dirname +"/getheader.jsx");
 // // import hdr from (."/getheader.jsx");
 
 
 // array of different page title 
-<<<<<<< HEAD
 const Ptitle=[{title:"Data",subtitle:"Swift fibre"},{title:"Data",subtitle:"NBN"},{title:"Dialpad",subtitle:"Dialpad Talk"},{title:"Dialpad",subtitle:"Dialpad Sales Dialer"},{title:"Dialpad",subtitle:"Dialpad Contact Centre"},{title:"Voice",subtitle:"Business SIP Voice"},{title:"Voice",subtitle:"Business Phone System"},{title:"Voice",subtitle:"Inbound Voice"},{title:"Cloud & IoT",subtitle:"Cloud Services"},{title:"Cloud & IoT",subtitle:"IOT Services"},{title:"About Us",subtitle:"about Quick software solutions"},{title:"About Us",subtitle:"Partner Reseller With Quick software solutions"},{title:"About Us",subtitle:"Customer Referral"},{title:"About Us",subtitle:"Contact Quick software solutions"},{title:"Devlopment & Integrate",subtitle:"Services"}];
-=======
-const Ptitle=[{title:"Data",subtitle:"Swift fibre"},{title:"Data",subtitle:"NBN"},{title:"Dialpad",subtitle:"Dialpad Talk"},{title:"Dialpad",subtitle:"Dialpad Sales Dialer"},{title:"Dialpad",subtitle:"Dialpad Contact Centre"},{title:"Voice",subtitle:"Business SIP Voice"},{title:"Voice",subtitle:"Business Phone System"},{title:"Voice",subtitle:"Inbound Voice"},{title:"Cloud & IoT",subtitle:"Cloud Services"},{title:"Cloud & IoT",subtitle:"IOT Services"},{title:"About Us",subtitle:"about Quick software solutions"},{title:"About Us",subtitle:"Partner Reseller With Quick software solutions"},{title:"About Us",subtitle:"Customer Referral"},{title:"About Us",subtitle:"Contact Quick software solutions"}];
->>>>>>> 287e9c84ab93cee5357b9ffa47e3c30ea73ba811
 
 const app= express();
 
@@ -35,14 +28,11 @@ app.set("view engine", "ejs");
 // use of bodyParser to get data from the route
 app.use(bodyParser.urlencoded({extended:true}));
 
-<<<<<<< HEAD
 // enforcing https req using heroku 
 // Use enforce.HTTPS({ trustProtoHeader: true }) in case you are behind
 // a load balancer (e.g. Heroku). See further comments below
 // app.use(enforce.HTTPS({ trustProtoHeader: true }));
 
-=======
->>>>>>> 287e9c84ab93cee5357b9ffa47e3c30ea73ba811
 // making a public folder and using it to get hold of static folder such as css and all
 
 app.use(express.static("public"));
@@ -69,10 +59,7 @@ app.post("/",function(req,res){
 app.get("/:title",function(req,res){
   // converting dynamic part of the url to lowecase of lodash
   urldypart=lds.lowerCase(req.params.title);
-<<<<<<< HEAD
   console.log(urldypart +"this is we getting from url target");
-=======
->>>>>>> 287e9c84ab93cee5357b9ffa47e3c30ea73ba811
   var pagefound ="false";
 
   Ptitle.forEach(function(pageinfo){
