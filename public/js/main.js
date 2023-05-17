@@ -4,6 +4,7 @@
   var headerr=document.querySelector(".page_header");
   headerr.classList.toggle("sticky",window.scrollY >62.4);
 document.getElementsByClassName("navbaritm")[1].classList.toggle("navbarshrink",window.scrollY >62.4);
+<<<<<<< HEAD
 // getting all the amchor element of the 
 
   let anchall=document.querySelectorAll('ul.nav.sf-menu>li>a');
@@ -12,6 +13,8 @@ elem.classList.toggle("ashrink",window.scrollY >62.4);
 
   });
 
+=======
+>>>>>>> 287e9c84ab93cee5357b9ffa47e3c30ea73ba811
 // to animate an element whenever its fully invisible
 
 let footer_child = document.querySelector(".footer_elements").children;
@@ -51,6 +54,7 @@ toggler.addEventListener("click",function(){
 
 });
 
+<<<<<<< HEAD
 // getting all ul list and making it active on  click 
 
 document.querySelectorAll("ul.nav.sf-menu>li>a").forEach(function(elem){
@@ -83,3 +87,17 @@ document.querySelector(".whrs").addEventListener("click",function(){document.que
 document.querySelector(".exitwhrs").addEventListener("click",function(){
   document.querySelector(".whrspop").classList.remove("pop");
 })
+=======
+// getting all ul list 
+let menu=document.querySelector(".sf-menu").children;
+for(let i=1;i<menu.length-1;i++){
+  menu[i].addEventListener("click",function(){
+    let submenu= menu[i].children[1];
+    submenu.classList.toggle("submenuli");
+    submenu.classList.toggle("submenu-active");
+  
+  });
+}
+
+// navabar on mobile ends 
+>>>>>>> 287e9c84ab93cee5357b9ffa47e3c30ea73ba811

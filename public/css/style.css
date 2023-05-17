@@ -11,21 +11,34 @@ background-color: #883377 !important;
     border-radius: 15px !important;
 }
 .alertmsg{
+<<<<<<< HEAD
     
     position: fixed;
     width: 30%;
     height: 41.5%;
     background: hsl(291, 47%, 13%);
     border-radius: 24%;
+=======
+    position: absolute;
+    width: 30%;
+    height: 11.5%;
+    background: hsl(291, 47%, 13%);
+    border-radius: 40%;
+>>>>>>> 287e9c84ab93cee5357b9ffa47e3c30ea73ba811
     /* display: none; */
     display: none;
     left: 36%;
     top: 28%;
+<<<<<<< HEAD
     z-index: 70;
 
 }
 
 
+=======
+    z-index: 5;
+}
+>>>>>>> 287e9c84ab93cee5357b9ffa47e3c30ea73ba811
 .exitalert{
     position: absolute;
     left: 80%;
@@ -102,6 +115,7 @@ margin-top: 5px;
 .submenu-active{
     display: block !important;;
     margin-top: 0px !important;
+<<<<<<< HEAD
 }
 
 /* definining classes used for alignment with bootstrap 
@@ -410,3 +424,6 @@ font-size:30px;
 
 
   /* styling working hours  */
+=======
+}
+>>>>>>> 287e9c84ab93cee5357b9ffa47e3c30ea73ba811

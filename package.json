@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "quicksoftwaresolutions",
   "version": "1.0.0",
   "description": "a site for services and products",
@@ -9,11 +10,20 @@
   },
   "author": "narendra deo",
   "license": "ISC",
+=======
+>>>>>>> 287e9c84ab93cee5357b9ffa47e3c30ea73ba811
   "dependencies": {
     "body-parser": "^1.20.0",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
+<<<<<<< HEAD
     "express-sslify": "^1.2.0",
     "lodash": "^4.17.21"
+=======
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+>>>>>>> 287e9c84ab93cee5357b9ffa47e3c30ea73ba811
   }
 }
